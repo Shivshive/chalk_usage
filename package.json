@@ -10,8 +10,10 @@
     "runts": "ts-node --project tsconfig.json",
     "test": "jest -c jest.config.js --runTestsByPath test/googleTest/googleTest.test.ts",
     "test:CI": "set CI=true &&react-scripts test --env=jsdom --testResultsProcessor=./node_modules/jest-html-reporter",
-    "pwtest": "playwright test --project=chromium --project=firefox --project=webkit",
-    "pwshow": "playwright show-report"
+    "pwtest": "playwright test --project=chromium test/pwtests/amazon.test.ts",
+    "pwtests":"playwright test --project=chromium --project=firefox --project=webkit",
+    "pwshow": "playwright show-report",
+    "gentest":"playwright codegen playwright.dev"
   },
   "dependencies": {
     "@playwright/test": "^1.27.1",

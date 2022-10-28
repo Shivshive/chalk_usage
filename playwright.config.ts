@@ -8,7 +8,7 @@ const config: PlaywrightTestConfig = {
             use: { ...devices['Desktop Chrome'], headless: false, video: 'on', baseURL: 'https://www.amazon.in', screenshot: 'on', browserName: 'chromium', colorScheme:'dark' },
             testDir:'test/pwtests',
             timeout: 30000,
-            retries: 2,
+            retries: 1,
         },
         {
             name: 'firefox',

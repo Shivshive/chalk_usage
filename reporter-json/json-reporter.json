@@ -14,7 +14,7 @@
       {
         "outputDir": "C:/Users/Chandra-Kautilya/Documents/git/chalk_usage/test-results",
         "repeatEach": 1,
-        "retries": 2,
+        "retries": 1,
         "id": "chromium",
         "name": "chromium",
         "testDir": "C:/Users/Chandra-Kautilya/Documents/git/chalk_usage/test/pwtests",
@@ -85,13 +85,13 @@
   },
   "suites": [
     {
-      "title": "test\\pwtests\\google.pw.test.ts",
-      "file": "test/pwtests/google.pw.test.ts",
+      "title": "test\\pwtests\\amazon.test.ts",
+      "file": "test/pwtests/amazon.test.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "homepage has Playwright in title and get started link linking to the intro page",
+          "title": "amazon-iphone search test",
           "ok": true,
           "tags": [],
           "tests": [
@@ -105,86 +105,32 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 1240,
+                  "duration": 9185,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2022-10-27T17:19:41.092Z",
+                  "startTime": "2022-10-28T14:15:55.321Z",
                   "attachments": [
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "C:\\Users\\Chandra-Kautilya\\Documents\\git\\chalk_usage\\test-results\\google.pw-homepage-has-Playwright-in-title-and-get-started-link-linking-to-the-intro-page-chromium\\video.webm"
+                      "path": "C:\\Users\\Chandra-Kautilya\\Documents\\git\\chalk_usage\\test-results\\amazon-amazon-iphone-search-test-chromium\\video-1.webm"
                     },
-                    {
-                      "name": "screenshot",
-                      "contentType": "image/png",
-                      "path": "C:\\Users\\Chandra-Kautilya\\Documents\\git\\chalk_usage\\test-results\\google.pw-homepage-has-Playwright-in-title-and-get-started-link-linking-to-the-intro-page-chromium\\test-finished-1.png"
-                    }
-                  ]
-                }
-              ],
-              "status": "expected"
-            },
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "firefox",
-              "projectName": "firefox",
-              "results": [
-                {
-                  "workerIndex": 1,
-                  "status": "passed",
-                  "duration": 2173,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2022-10-27T17:19:41.092Z",
-                  "attachments": [
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "C:\\Users\\Chandra-Kautilya\\Documents\\git\\chalk_usage\\test-results\\google.pw-homepage-has-Playwright-in-title-and-get-started-link-linking-to-the-intro-page-firefox\\video.webm"
+                      "path": "C:\\Users\\Chandra-Kautilya\\Documents\\git\\chalk_usage\\test-results\\amazon-amazon-iphone-search-test-chromium\\video.webm"
                     },
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "C:\\Users\\Chandra-Kautilya\\Documents\\git\\chalk_usage\\test-results\\google.pw-homepage-has-Playwright-in-title-and-get-started-link-linking-to-the-intro-page-firefox\\test-finished-1.png"
-                    }
-                  ]
-                }
-              ],
-              "status": "expected"
-            },
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "webkit",
-              "projectName": "webkit",
-              "results": [
-                {
-                  "workerIndex": 2,
-                  "status": "passed",
-                  "duration": 3046,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2022-10-27T17:19:41.102Z",
-                  "attachments": [
-                    {
-                      "name": "video",
-                      "contentType": "video/webm",
-                      "path": "C:\\Users\\Chandra-Kautilya\\Documents\\git\\chalk_usage\\test-results\\google.pw-homepage-has-Playwright-in-title-and-get-started-link-linking-to-the-intro-page-webkit\\video.webm"
+                      "path": "C:\\Users\\Chandra-Kautilya\\Documents\\git\\chalk_usage\\test-results\\amazon-amazon-iphone-search-test-chromium\\test-finished-1.png"
                     },
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "C:\\Users\\Chandra-Kautilya\\Documents\\git\\chalk_usage\\test-results\\google.pw-homepage-has-Playwright-in-title-and-get-started-link-linking-to-the-intro-page-webkit\\test-finished-1.png"
+                      "path": "C:\\Users\\Chandra-Kautilya\\Documents\\git\\chalk_usage\\test-results\\amazon-amazon-iphone-search-test-chromium\\test-finished-2.png"
                     }
                   ]
                 }
@@ -192,9 +138,9 @@
               "status": "expected"
             }
           ],
-          "id": "a7ff9b9ba25f90d2e97c-d14133faaa5cd168be96",
-          "file": "test/pwtests/google.pw.test.ts",
-          "line": 3,
+          "id": "a376402b347ad7c46d54-b02ed9ebfe364dee8d8f",
+          "file": "test/pwtests/amazon.test.ts",
+          "line": 4,
           "column": 1
         }
       ]
